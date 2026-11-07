@@ -9,11 +9,12 @@
 
 <body>
 
+    <!-- TOP PART: logo, links and your name -->
     <header>
         <div class="navbar">
-            <h2 class="logo">
-                <img src="images/logo.png">
-            </h2>
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Joeveny logo">
+            </a>
 
             <nav>
                 <a href="index.html" class="active">Home</a>
@@ -23,31 +24,50 @@
             </nav>
         </div>
 
-        <section class="hero">
+        <div class="hero">
             <p>HELLO, I'M</p>
             <h1>Joeveny M. Alcido Jr.</h1>
-            <h2>BSIT Student | Aspiring Web Developer</h2>
-
-            <p>
-                Welcome to my personal portfolio! I love technology
-                and programming. Take a look at my skills and projects.
-            </p>
+            <h3>BSIT Student | Aspiring Web Developer</h3>
 
             <a href="gallery.html" class="button">View My Work</a>
-            <a href="contact.html" class="button secondary">Contact Me</a>
-        </section>
+            <a href="contact.html" class="button outline">Contact Me</a>
+        </div>
     </header>
 
-    <main>
-        <section class="welcome">
+    <!-- MIDDLE PART: the main content -->
+    <main class="container">
+
+        <div class="card center">
             <h2>Welcome!</h2>
             <p>
-                This website shows what I have learned and the projects
-                I have made as a BSIT student.
+                Welcome to my personal portfolio! I love technology
+                and programming. This website shows what I have learned
+                and the projects I have made as a BSIT student.
             </p>
-        </section>
+        </div>
+
+        <h2>What I Do</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Build Websites</h3>
+                <p>I make web pages using HTML, CSS and Google Sites.</p>
+            </div>
+
+            <div class="card">
+                <h3>Write Programs</h3>
+                <p>I practice Java with variables, conditions, loops and user input.</p>
+            </div>
+
+            <div class="card">
+                <h3>Solve Problems</h3>
+                <p>I plan my solutions with algorithms and flowcharts.</p>
+            </div>
+        </div>
+
     </main>
 
+    <!-- BOTTOM PART -->
     <footer>
         <p>&copy; 2026 Joeveny M. Alcido Jr. | Personal Portfolio</p>
     </footer>
